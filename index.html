@@ -12,8 +12,29 @@
 <body>
   <div id="div">
     <div class="note" id="note">
-      <button id="btn" type="submit" class="submit">Submit</button>
+      <table class="table-chat" id="tab-chat">
+      </table>
+      <div class="wrap-mes" id="wrap-mes">
+        <input id="inp" class="mes" id="mes" placeholder="Type your message here"></input>
+        <button id="butSendMic" class="butSend">&#127908</button>
+        <button id="butSendVid" class="butSend">&#128249</button>
+        <button id="butOk" class="butOk">&#10003</button>
+        <p id="sec"></p>
+        <button id="butClose" class="butClose">&#215</button>
+      </div>
+      <div class="locationTap" id="locationTap">
+        <p>Something wrong</p>
+        <p> </p>
+        <p>Your location didn't detect</p>
+        <p> </p>
+        <p>Write your location:</p>
+        <p id="erInp"></p>
+        <input class="loc" id="loc"></input>
+        <button id="canсel" class="canсel">Сanсel</button>
+        <button id="ok" class="ok">Ok</button>
+      </div>
     </div>
+  </div>
   </div>
   <script src="./src/js/app.js"></script>
 </body>
